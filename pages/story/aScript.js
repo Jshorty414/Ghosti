@@ -250,11 +250,11 @@ function seventeen() {
 var text = document.getElementById("textBox")
 var button17 = document.getElementById("button17")
 var button18 = document.getElementById("button18")
-var ouijaButtonBB = document.getElementById("ouijaButtonBB")
+var ouijaButton = document.getElementById("ouijaButton")
 
 text.innerHTML = "Blip: Oh and if you need to move about, just get your ouija board out and give it a lil whirl. The board is a map of your town. Go ahead and try it out by clicking the lil ouija button in the left corner.";
 
- ouijaButtonBB.style.opacity = "1";
+ ouijaButton.style.opacity = "1";
  button17.style.opacity = "0";
  button17.style.top = "70%" ; 
  button18.style.opacity = "1";

@@ -16,14 +16,10 @@ text.innerHTML = "You decide to just let it go, you can’t remember what it was
 function two() {
 var text = document.getElementById("textBox")
 var button2 = document.getElementById("button2")
-var back = document.getElementById("back")
 
 
 text.innerHTML = "Demo Complete. Thank you for playing!";
 
-
- back.style.opacity = "1"
- back.style.top = "80"
  button2.style.opacity = "0";
  button2.style.top = "70%" ; 
 

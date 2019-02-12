@@ -66,11 +66,11 @@ function five() {
 var text = document.getElementById("textBox")
 var button5 = document.getElementById("button5")
 var button6 = document.getElementById("button6")
-// var dHat = document.getElementById("dHat")
+var aHat = document.getElementById("aHat")
 
 text.innerHTML = "You pull out a dad hat with a halo attached to it.";
 
- // dHat.style.opacity = "1";
+ aHat.style.opacity = "1";
  button5.style.opacity = "0";
  button6.style.opacity = "1";
  button5.style.top = "70%" ; 
