@@ -1,0 +1,148 @@
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+} 
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+} 
+
+body {
+    margin: 0;
+    background-color: #e7cfbc
+}
+
+.mainMenu {
+    font-family: arial;
+    background-color: #b2886e;
+    margin: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    color: white;
+    font-size: large;
+    height: 475px;
+}
+
+a:link, a:visited {
+  font-family: arial;
+  background-color: #c4838a;
+  color: white;
+  text-align: center; 
+  text-decoration: none;
+  font-size: 21px;
+  padding: 2%;
+  width: 200px;
+  
+}
+
+a:hover, a:active {
+  background-color: #b2886e;
+}
+
+.name:link, .name:visited {
+  font-family: arial;
+  background-color: #c4838a;
+  color: white;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  margin: 3%;
+  font-size: 30px;
+  padding-top: 5%;
+  width: 220px;
+  height:150px ;
+  
+}
+
+.name:hover, .name:active {
+  background-color: #b2886e;
+}
+
+
+
+.startNew {
+    font-family: arial;
+    background-color: #b2886e;
+    margin: 2%;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    color: white;
+    font-size: large;
+    height: 475px;
+}
+
+#new {
+ position: absolute;
+ top: 75%;
+ left: 20%;
+}
+
+#about {
+  position: absolute;
+  top: 75%;
+  left: 60%;
+}
+
+#menuImg {
+  height: 70% ;
+  position: absolute;
+  left: 20%;
+}
+
+#on {
+  border: none;
+  font-family: arial;
+  background-color: #c4838a;
+  color: white;
+  text-align: center; 
+  text-decoration: none;
+  font-size: 21px;
+  padding: 2%;
+  width: 200px;
+  position: absolute;
+  top: 30%;
+  left: 50% ;
+}
+
+#off {
+  border: none;
+  font-family: arial;
+  background-color: #c4838a;
+  color: white;
+  text-align: center; 
+  text-decoration: none;
+  font-size: 21px;
+  padding: 2%;
+  width: 200px;
+  position: absolute;
+  top: 30%;
+  left: 30% ;
+}
+
+#music {
+    font-family: arial;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    top: 2%;
+    left: 43% ;
+}
+
+#backB {
+   border: none;
+  font-family: arial;
+  background-color: #c4838a;
+  color: white;
+  text-align: center; 
+  text-decoration: none;
+  font-size: 21px;
+  padding: 2%;
+  position: absolute;
+  top: 50%;
+  left: 38% ;
+}

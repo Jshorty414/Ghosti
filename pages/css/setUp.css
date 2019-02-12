@@ -1,0 +1,56 @@
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+} 
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+} 
+
+
+body {
+    margin: 0;
+    background-color: #e7cfbc
+}
+
+#back {
+  background-color: #b2886e;
+  margin: 2%;
+}
+
+h {
+  font-family: arial;
+  color: #e2e0e0;
+  font-size: 30px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+a:link, a:visited {
+  
+  font-family: arial;
+  background-color: #fff4ec;
+  color: #c4838a;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-bottom: 3%;
+  margin-top: 6%;
+  font-size: 16px;
+  padding: 2%;
+  width: 400px;
+}
+
+a:hover, a:active {
+  background-color: #b2886e;
+  color: #fff4ec;
+}
+
+
